@@ -53,10 +53,12 @@
         <!-- <li><a href="{{ site.baseurl }}/">Home</a></li> -->
         <li><a href="{{ site.baseurl }}/">Main</a></li>
         <li><a href="{{ site.baseurl }}/devops">DevOps</a>
-            <ul>
-                <li><a href="{{ site.baseurl }}/devops/database">Database</a></li>
-                <li><a href="{{ site.baseurl }}/devops/kafka">Kafka</a></li>
-            </ul>
+            <nav id="sub-menu">
+                <ul>
+                    <li><a href="{{ site.baseurl }}/devops/database">Database</a></li>
+                    <li><a href="{{ site.baseurl }}/devops/kafka">Kafka</a></li>
+                </ul>
+            </nav>
         </li>
         <li><a href="{{ site.baseurl }}/java">Java</a></li>
         <li><a href="{{ site.baseurl }}/kotlin">Kotlin</a></li>

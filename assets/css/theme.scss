@@ -702,6 +702,13 @@ body.active-side {
             font-size: 1.4rem;
         }
     }
+    
+    #sub-menu ul {
+        padding: revert;
+        a {
+            font-size: 14px;
+        }
+    }
 }
 @media (max-width: 480px) {
     .newsletter {
